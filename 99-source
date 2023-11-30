@@ -1,0 +1,2 @@
+#!/bin/sh
+echo " * see /etc/update-motd.d for run scripts that generate this stuff \n ------------------ end of motd.d run scripts ---------------------"

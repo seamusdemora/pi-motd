@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if [ $(find /home/pi -name 'Z______IMAGE_UTILS_UPDATED______Z') ]; then
+  echo "image-utils has been UPDATED!"
+fi
+
+
+# if [[ -n $(find /home/pi -name "Z______IMAGE_UTILS_UPDATED______Z") ]]; then
+#   echo "There has been an update to image-utils!"
+# fi
+

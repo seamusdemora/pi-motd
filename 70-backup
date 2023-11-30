@@ -1,0 +1,4 @@
+#!/bin/sh
+# echo "Updated backup image: /mnt/SynologyNAS/rpi_share/raspberrypi4b/$(ls -l /mnt/SynologyNAS/rpi_share/raspberrypi4b | tail -1)"
+
+tail -2 /home/pi/imagebackup.log | head -1
