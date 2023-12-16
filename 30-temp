@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "SoC TEMP:\t $(vcgencmd measure_temp | cut -c "6-9") °C"
+echo "SoC TEMP:\t$(vcgencmd measure_temp | cut -c "6-9") °C"

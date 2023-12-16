@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "Kernel:\t\t $(uname -rv)"
+echo "Kernel:\t\t$(uname -rv)"
