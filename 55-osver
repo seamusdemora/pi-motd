@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "OS Ver: \t $(lsb_release -d | cut -f 2)"
+echo "OS Ver: \t$(lsb_release -d | cut -f 2)"

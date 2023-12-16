@@ -1,2 +1,2 @@
 #!/bin/sh
-df -h | awk '{if ($1 == "/dev/root") printf "SD card:\t %s Used of %s Available; (%s Usage)\n", $3, $4, $5}'
+df -h | awk '{if ($1 == "/dev/root") printf "SD card:\t%s Used of %s Available; (%s Usage)\n", $3, $4, $5}'

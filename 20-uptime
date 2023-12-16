@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "Uptime:\t\t $(uptime -p)"
+echo "Uptime:\t\t$(uptime -p)"

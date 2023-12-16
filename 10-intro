@@ -1,2 +1,2 @@
 #!/bin/sh
-printf "\n#\nWelcome to MOTD:\nDate/Time:\t $(date)\n"
+printf "\n#\nWelcome to MOTD ~\nDate/Time:\t$(date)\n"

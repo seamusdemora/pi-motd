@@ -1,2 +1,2 @@
 #!/bin/sh
-echo "Network:\t $(hostname)\t $(hostname -I)"
+echo "Network:\t$(hostname)\t $(hostname -I)"
