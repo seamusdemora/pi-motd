@@ -1,5 +1,1 @@
-sudo rsync -cvvi --chmod=F755 --chown=root:root --exclude=.git ./* /etc/update-motd.d
-
-sudo rsync -cvvi --chmod=F755 --chown=root:root --exclude=.git,*.txt ./* /etc/update-motd.d
-
-sudo rsync -cvvi --chmod=F755 --chown=root:root --exclude='/.git','*.txt' ./* /etc/update-motd.d
+sudo rsync -cvvi --chmod=F755 --chown=root:root --exclude='/.git' --exclude='*.txt' --exclude='*.md' ./* /etc/update-motd.d
