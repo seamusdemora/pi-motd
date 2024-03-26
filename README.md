@@ -1,3 +1,5 @@
+### A motd for Raspberry Pi
+
 add the numbered files to `/etc/update-motd.d`; you can use the `rsync` command in the `rsync-install.txt` file for this 
 
 you can generate this motd at any time:
