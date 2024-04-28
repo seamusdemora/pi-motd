@@ -11,9 +11,10 @@ the motd:
 ```
 #
 Welcome to MOTD ~
-Date/Time:	Sun 28 Apr 21:26:16 UTC 2024
+Date/Time:	Sun 28 Apr 22:58:19 UTC 2024
 uname:		Linux rpi3a 6.6.28+rpt-rpi-v7 #1 SMP Raspbian 1:6.6.28-1+rpt1 (2024-04-22) armv7l
-Uptime:		up 23 hours, 26 minutes
+Hardware:	Raspberry Pi 3 Model A Plus Rev 1.1
+Uptime:		up 1 day, 58 minutes
 SoC TEMP:	37.6 °C
 SD/NVM card:	2.6G Used of 25G Available; (10% Usage)
 Network:	rpi3a	 192.168.1.148
