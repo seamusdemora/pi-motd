@@ -1,5 +1,6 @@
 #!/bin/sh
 # Purpose: determine device on which 'boot' is mounted
+# REF: https://unix.stackexchange.com/a/217412/286615
 device1="/dev/nvme0n1p1"
 device2="/dev/mmcblk0p1"
 #
