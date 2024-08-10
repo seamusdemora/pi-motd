@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env sh
 
 # old shit - ignore
 # echo "Updated backup image: /mnt/SynologyNAS/rpi_share/raspberrypi4b/$(ls -l /mnt/SynologyNAS/rpi_share/raspberrypi4b | tail -1)"

@@ -1,2 +1,2 @@
-#!/bin/sh
+#!/usr/bin/env sh
 printf "\n#\nWelcome to MOTD ~\nDate/Time:\t$(date)\n"

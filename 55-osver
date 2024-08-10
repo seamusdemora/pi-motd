@@ -1,2 +1,2 @@
-#!/bin/sh
+#!/usr/bin/env sh
 echo "OS Ver: \t$(lsb_release -d | cut -f 2)"

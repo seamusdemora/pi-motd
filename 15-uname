@@ -1,2 +1,2 @@
-#!/bin/sh
-/usr/bin/echo -e "uname:\t\t$(uname -snrvm)"
+#!/usr/bin/env sh
+/usr/bin/env echo -e "uname:\t\t$(uname -snrvm)"
