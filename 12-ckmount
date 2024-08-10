@@ -1,0 +1,15 @@
+#!/bin/sh
+# Purpose: determine device on which 'boot' is mounted
+# REF: https://unix.stackexchange.com/a/217412/286615
+device1="/dev/nvme0n1p1"
+device2="/dev/mmcblk0p1"
+#
+if mountpoint=$(findmnt -nr -o target -S "$device1"); then
+  printf 'Using NVME:\t"%s" is mounted on "%s"\n' "$mountpoint" "$device1"
+
+elif mountpoint=$(findmnt -nr -o target -S "$device2"); then
+  printf 'Using SD card:\t"%s" is mounted on "%s"\n' "$mountpoint" "$device2"
+
+else
+  printf '"%s" does not appear to be directly mounted\n' "$device"
+fi

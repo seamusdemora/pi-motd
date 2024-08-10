@@ -1,2 +1,5 @@
 #!/bin/sh
-df -h | awk '{if ($1 == "/dev/root") printf "SD card:\t%s Used of %s Available; (%s Usage)\n", $3, $4, $5}'
+# /usr/bin/df -h | /usr/bin/awk '{if ($1 == "/dev/root") printf "SD card:\t%s Used of %s Available; (%s Usage)\n", $3, $4, $5}'
+# /usr/bin/df -h | /usr/bin/awk '{if ($1 == "/dev/mmcblk0p2") printf "SD card:\t%s Used of %s Available; (%s Usage)\n", $3, $4, $5}'
+/usr/bin/df -h | /usr/bin/awk '{if ($1 == "/dev/mmcblk0p2" || $1 == "/dev/root" || $1 == "/dev/nvme0n1p2") \
+printf "SD/NVM card:\t%s Used of %s Available; (%s Usage)\n", $3, $4, $5}'

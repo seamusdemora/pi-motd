@@ -1,0 +1,2 @@
+#!/bin/sh
+/usr/bin/echo -e "Hardware:\t$(tr -d '\0' < /sys/firmware/devicetree/base/model)"
