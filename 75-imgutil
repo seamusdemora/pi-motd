@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+# This script needs to change as updates are now handled in a different manner!
+
+
 if [ $(find /home/pi -name 'Z______IMAGE_UTILS_UPDATED______Z') ]; then
   echo "image-utils has been UPDATED!"
 fi
