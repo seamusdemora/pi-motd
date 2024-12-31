@@ -4,7 +4,8 @@
 # The following command may be helpful:
 # diff -q -x .git -x diffs -x README.md ~/RonR-RPi-image-utils/ /mnt/SynologyNAS/rpi_share/img-utils/ | wc -l
 
-if [ $(find /home/pi -name 'Z______IMAGE_UTILS_UPDATED______Z') ]; then
+if [ $(find /home/pi -name 'Z______IMAGE_UTILS_UPDATED______Z') ]
+then
   echo "image-utils has been UPDATED!"
 fi
 
