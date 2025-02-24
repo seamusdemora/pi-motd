@@ -1,2 +1,2 @@
 #!/usr/bin/env sh
-echo "Network:\t$(hostname)\t $(hostname -I)"
+echo "Network:\t$(hostname)\tIP: $(hostname -I)\twlan0 MAC: $(ip link show wlan0 | tail -1 | awk '{print $2}')"
