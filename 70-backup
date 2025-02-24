@@ -1,6 +1,9 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 # old shit - ignore
 # echo "Updated backup image: /mnt/SynologyNAS/rpi_share/raspberrypi4b/$(ls -l /mnt/SynologyNAS/rpi_share/raspberrypi4b | tail -1)"
-
-tail -3 /home/pi/imagebackup.log | head -1
+if [ -f /home/pi/imagebackup.log ]; then
+    tail -3 /home/pi/imagebackup.log | head -1
+else
+    echo -e "Backup:\t\tNo backup logfile"
+fi
