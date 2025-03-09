@@ -1,2 +1,6 @@
 #!/usr/bin/env sh
-echo "Network:\t$(hostname)\tIP: $(hostname -I)\twlan0 MAC: $(ip link show wlan0 | tail -1 | awk '{print $2}')"
+if [[ $(ip link show wlan0 | tail -1 | awk '{print $2}') ]]; then
+    echo "Network:\t$(hostname)\tIP: $(hostname -I)\twlan0 MAC: $(ip link show wlan0 | tail -1 | awk '{print $2}')"
+else
+    echo "Network:\t$(hostname)\tIP: $(hostname -I)\teth0 MAC: $(ip link show eth0 | tail -1 | awk '{print $2}')"
+fi
