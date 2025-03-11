@@ -11,16 +11,18 @@ the motd:
 ```
 #
 Welcome to MOTD ~
-Date/Time:	Sun 28 Apr 22:58:19 UTC 2024
-uname:		Linux rpi3a 6.6.28+rpt-rpi-v7 #1 SMP Raspbian 1:6.6.28-1+rpt1 (2024-04-22) armv7l
-Hardware:	Raspberry Pi 3 Model A Plus Rev 1.1
-Uptime:		up 1 day, 58 minutes
-SoC TEMP:	37.6 °C
-SD/NVM card:	2.6G Used of 25G Available; (10% Usage)
-Network:	rpi3a	 192.168.1.148
-OS Ver: 	Raspbian GNU/Linux 12 (bookworm)
-Kernel:		6.6.28+rpt-rpi-v7 #1 SMP Raspbian 1:6.6.28-1+rpt1 (2024-04-22)
-Backup:		not currently making backups w/image-backup
+Date/Time:	  Tue Mar 11 15:18:46 UTC 2025
+Using NVME:	  "/boot/firmware" is mounted on "/dev/nvme0n1p1"
+uname:		    Linux raspberrypi5 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
+Hardware:	    Raspberry Pi 5 Model B Rev 1.0
+Uptime:		    up 18 minutes
+SoC TEMP:	    44.4 °C
+SD/NVM card:	8.9G Used of 431G Available; (3% Usage)
+Network:	    raspberrypi5	IP: 192.168.1.223 	wlan0 MAC: d8:3a:dd:a7:b1:fe
+OS Ver: 	    Debian GNU/Linux 12 (bookworm)
+Kernel:		    6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27)
+Start time:	  Startup finished in 3.193s (kernel) + 8.957s (userspace) = 12.150s
+Backup:		    2025-03-03/03:48:06-UTC - Updated 20250214_Pi5_imagebackup.img
 
  * see /etc/update-motd.d for run scripts that generate this stuff
 ------------------ end of motd.d run scripts ---------------------
