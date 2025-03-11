@@ -13,7 +13,7 @@ the motd:
 Welcome to MOTD ~
 Date/Time:	  Tue Mar 11 15:18:46 UTC 2025
 Using NVME:	  "/boot/firmware" is mounted on "/dev/nvme0n1p1"
-uname:		    Linux raspberrypi5 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
+uname:	    Linux raspberrypi5 6.6.74+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.6.74-1+rpt1 (2025-01-27) aarch64
 Hardware:	    Raspberry Pi 5 Model B Rev 1.0
 Uptime:		    up 18 minutes
 SoC TEMP:	    44.4 °C
