@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+echo -e "Start time:\t$(systemd-analyze time | head -1)"
