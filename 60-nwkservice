@@ -1,0 +1,10 @@
+#!/usr/bin/bash
+string1=$(systemctl list-units --all | grep -Ei 'networking\.|NetworkManager\.|networkd\.' | grep 'service' | grep -E 'running')
+string2=$(systemctl list-units --all | grep -Ei 'networking\.|NetworkManager\.|networkd\.' | grep 'service' | grep -Ev 'dead')
+if [ -n "$string1" ]; then
+    echo -e "Network Svc:\trun: systemctl status ${string1:2:24}"
+else
+    echo -e "Network Svc:\trun: systemctl status ${string2:2:20}"
+fi
+
+# systemctl status
